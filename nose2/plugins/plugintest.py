@@ -10,7 +10,7 @@ log = logging.getLogger(__name__)
 
 class PluginEssai(Plugin):
     configSection = 'essai'
-    commandLineSwitch = ('e', 'with-essai', 'Essai de plugin')
+    commandLineSwitch = ('e', 'with-essai', 'Essai de plugin et de command')
 
     def __init__(self):
         pass
